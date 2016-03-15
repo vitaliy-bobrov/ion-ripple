@@ -15,11 +15,11 @@ A pure javascript (no polymer, no jQuery) Ionic directive that adds a Google Mat
 Include the script in your HTML
 
   ```html
-  <link href="lib/ionic-ripple/ion-ripple.css" rel="stylesheet">
-  <script src="lib/ionic-ripple/ion-ripple.min.js"></script>
+  <link href="lib/ion-ripple/ion-ripple.css" rel="stylesheet">
+  <script src="lib/ion-ripple/ion-ripple.min.js"></script>
   ```
 
-Then include `angularRipple` in your module dependencies
+Then include `ionRipple` in your module dependencies
 
   ```js
   angular.module('app', ['ionRipple']);
