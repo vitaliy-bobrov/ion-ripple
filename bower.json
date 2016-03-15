@@ -1,6 +1,6 @@
 {
-  "name": "ionic-ripple",
-  "main": "ionic-ripple.js",
+  "name": "ion-ripple",
+  "main": "ion-ripple.js",
   "version": "1.0.0",
   "homepage": "https://github.com/vitaliy-bobrov/ionic-ripple",
   "authors": [

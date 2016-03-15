@@ -8,11 +8,11 @@ var gulp = require('gulp'),
 
 var config = {
   scripts: {
-   src: './ionic-ripple.js',
+   src: './ion-ripple.js',
    dest: './'
   },
   styles: {
-   src: './ionic-ripple.scss',
+   src: './ion-ripple.scss',
    dest: '.'
   }
 };

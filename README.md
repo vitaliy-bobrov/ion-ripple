@@ -1,4 +1,4 @@
-ionic-ripple
+ion-ripple
 ==============
 
 A pure javascript (no polymer, no jQuery) Ionic directive that adds a Google Material Design ripple effect when clicked or touched based on [angular-ripple](https://github.com/nelsoncash/angular-ripple).
@@ -6,7 +6,7 @@ A pure javascript (no polymer, no jQuery) Ionic directive that adds a Google Mat
 ## Bower
 
   ```bash
-  bower install --save ionic-ripple
+  bower install --save ion-ripple
   ```
 
 
@@ -15,14 +15,14 @@ A pure javascript (no polymer, no jQuery) Ionic directive that adds a Google Mat
 Include the script in your HTML
 
   ```html
-  <link href="lib/ionic-ripple/ionic-ripple.css" rel="stylesheet">
-  <script src="lib/ionic-ripple/ionic-ripple.min.js"></script>
+  <link href="lib/ionic-ripple/ion-ripple.css" rel="stylesheet">
+  <script src="lib/ionic-ripple/ion-ripple.min.js"></script>
   ```
 
 Then include `angularRipple` in your module dependencies
 
   ```js
-  angular.module('app', ['ionicRipple']);
+  angular.module('app', ['ionRipple']);
   ```
 
 Then add the `ion-ripple` attribute to elements
