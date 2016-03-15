@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  angular.module('ionRipple', ['ionic'])
+  angular.module('ionMDRipple', ['ionic'])
     .directive('ionRipple', ionRipple);
 
   ionRipple.$inject = [];

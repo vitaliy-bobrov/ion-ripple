@@ -19,10 +19,10 @@ Include the script in your HTML
   <script src="lib/ion-ripple/ion-ripple.min.js"></script>
   ```
 
-Then include `ionRipple` in your module dependencies
+Then include `ionMDRipple` in your module dependencies
 
   ```js
-  angular.module('app', ['ionRipple']);
+  angular.module('app', ['ionMDRipple']);
   ```
 
 Then add the `ion-ripple` attribute to elements
