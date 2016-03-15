@@ -1,0 +1,24 @@
+[ion-ripple] {
+  position: relative;
+  overflow: hidden !important;
+}
+
+.ion-ripple {
+  display: block;
+  position: absolute;
+  background-color: rgba(#fff, .3);
+  border-radius: 50%;
+  transform: scale(0);
+  will-change: transform;
+
+  &_animate {
+    animation: ripple 0.25s linear;
+  }
+}
+
+@keyframes ripple {
+  100% {
+    opacity: 0;
+    transform: scale(2.5);
+  }
+}

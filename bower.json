@@ -1,17 +1,17 @@
 {
   "name": "ionic-ripple",
+  "main": "ionic-ripple.js",
   "version": "1.0.0",
-  "homepage": "http://github.com/nelsoncash/angular-ripple",
+  "homepage": "https://github.com/vitaliy-bobrov/ionic-ripple",
   "authors": [
     "Vitaliy Bobrov"
   ],
   "description": "A standalone Ionic implementation of the Google Material Design ripple effect.",
-  "main": "ionic-ripple.js",
-  "dependencies": {
-    "ionic": "^1.0.0"
-  },
+  "moduleType": [],
   "keywords": [
     "ionic",
+    "mobile",
+    "html5",
     "cordova",
     "phonegap",
     "angularjs",
