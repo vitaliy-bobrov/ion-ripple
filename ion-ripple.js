@@ -21,10 +21,6 @@
       var offsets;
       var rippleClass = 'ion-ripple';
       var animateClassName = 'ion-ripple_animate';
-      var ripple = document.createElement('span');
-
-      ripple.classList.add(rippleClass);
-      element[0].insertBefore(ripple, element[0].firstChild);
 
       element.on('touchend mouseup', rippleHandler);
 
@@ -34,7 +30,13 @@
       });
 
       function rippleHandler(event) {
-        event.stopPropagation();
+        var ripple = element[0].querySelector('.' + rippleClass);
+
+        if (!ripple) {
+          ripple = document.createElement('span');
+          ripple.classList.add(rippleClass);
+          element[0].insertBefore(ripple, element[0].firstChild);
+        }
         // Remove animation effect
         ripple.classList.remove(animateClassName);
 
