@@ -5,3 +5,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## [1.0.5] - 2016-03-16
 ### Fixed
 - Stop event propagation.
+
+
+## [1.0.7] - 2016-03-16
+### Fixed
+- Fix ripple element creation.

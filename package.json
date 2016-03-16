@@ -1,7 +1,7 @@
 {
   "name": "ion-ripple",
   "description": "A standalone Ionic implementation of the Google Material Design ripple effect.",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "author": "Vitaliy Bobrov",
   "devDependencies": {
     "autoprefixer": "^6.0.2",
