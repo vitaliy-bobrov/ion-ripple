@@ -34,6 +34,7 @@
       });
 
       function rippleHandler(event) {
+        event.stopPropagation();
         // Remove animation effect
         ripple.classList.remove(animateClassName);
 

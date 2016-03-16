@@ -1,7 +1,7 @@
 {
   "name": "ion-ripple",
   "main": "ion-ripple.js",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "homepage": "https://github.com/vitaliy-bobrov/ionic-ripple",
   "authors": [
     "Vitaliy Bobrov"
