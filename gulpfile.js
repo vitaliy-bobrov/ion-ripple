@@ -1,10 +1,8 @@
 'use strict';
 
-var gulp = require('gulp'),
-  $ = require('gulp-load-plugins')(),
-  willChange = require('postcss-will-change'),
-  autoprefixer = require('autoprefixer'),
-  mqkeyframes = require('postcss-mq-keyframes');
+var gulp = require('gulp');
+var $ = require('gulp-load-plugins')();
+var autoprefixer = require('autoprefixer');
 
 var config = {
   scripts: {
@@ -24,11 +22,9 @@ var onError = function (error) {
 
 gulp.task('styles', function() {
   var processors = [
-    willChange,
     autoprefixer({
       cascade: false,
-    }),
-    mqkeyframes,
+    })
   ];
 
   return gulp.src(config.styles.src)

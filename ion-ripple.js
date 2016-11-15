@@ -1,16 +1,18 @@
 (function() {
   'use strict';
 
-  angular.module('ionMDRipple', ['ionic'])
+  angular
+    .module('ionMDRipple', ['ionic'])
     .directive('ionRipple', ionRipple);
 
   function ionRipple() {
-    var directive = {
+    return {
       restrict: 'A',
-      link: link
+      link: link,
+      scope: {
+        ionRippleColor: '@'
+      }
     };
-
-    return directive;
 
     function link(scope, element, attr) {
       var x;
@@ -20,6 +22,11 @@
       var rippleClass = 'ion-ripple';
       var animateClassName = 'ion-ripple_animate';
       var ripple = document.createElement('span');
+
+      // Use color from ion-ripple-color attribute if possible.
+      if (attr.ionRippleColor) {
+        ripple.style.backgroundColor = attr.ionRippleColor;
+      }
 
       ripple.classList.add(rippleClass);
       element[0].insertBefore(ripple, element[0].firstChild);

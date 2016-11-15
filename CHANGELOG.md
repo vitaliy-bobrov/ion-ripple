@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.1.0] - 2016-11-15
+### Features
+- Publish to npm.
+- Add scss variables for style changes.
+- Add ion-ripple-color attribute.
+
 ## [1.0.8] - 2016-03-21
 ### Fixed
 - Add animation deactivation.
