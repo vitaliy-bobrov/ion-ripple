@@ -3,7 +3,6 @@ ion-ripple
 
 [![Bower version](https://badge.fury.io/bo/ion-ripple.svg)](https://badge.fury.io/bo/ion-ripple)
 [![npm version](https://badge.fury.io/js/ion-ripple.svg)](https://badge.fury.io/js/ion-ripple)
-[![devDependency Status](https://david-dm.org/vitaliy-bobrov/ion-ripple/dev-status.svg)](https://david-dm.org/vitaliy-bobrov/ion-ripple#info=devDependencies)
 
 A pure javascript (no polymer, no jQuery) Ionic directive that adds a Google Material Design ripple effect when clicked or touched based on [angular-ripple](https://github.com/nelsoncash/angular-ripple).
 
